@@ -11,4 +11,11 @@ namespace TaskTracker;
 /// </summary>
 public class TaskTrackerInstance
 {
+    public int TasksCount => _tasks.Count;
+    private List<Task> _tasks;
+
+    public TaskTrackerInstance()
+    {
+        
+    }
 }
