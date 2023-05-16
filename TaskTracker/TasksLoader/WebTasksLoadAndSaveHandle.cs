@@ -11,6 +11,13 @@ namespace TaskTracker.TasksLoader;
 /// </summary>
 internal class WebTasksLoadAndSaveHandle : ITasksLoadAndSaveHandle
 {
+    private string IP;
+
+    public WebTasksLoadAndSaveHandle(string IP)
+    {
+        this.IP = IP;
+    }
+
     List<Task> ITasksLoadAndSaveHandle.LoadTasks()
     {
         throw new NotImplementedException();
