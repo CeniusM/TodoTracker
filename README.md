@@ -1,4 +1,4 @@
-# TaskTracker
+# TodoTracker
 
 This is a simple todo app that allows users to create and manage tasks that need to do.
 
@@ -16,8 +16,8 @@ This is a simple todo app that allows users to create and manage tasks that need
 - Automatic load and save __( Under construction )__ 
 - Add new tasks __( Under construction )__ 
 - Mark tasks as completed __( Under construction )__ 
-- Delete tasks __( Under construction )__ 
-- View list of all tasks __( Under construction )__ 
+- Delete tasks 
+- View list of all tasks 
 - Filter tasks by completion status (all, completed, uncompleted) __( Under construction )__ 
 
 ## Technologies Used
