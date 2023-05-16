@@ -26,7 +26,7 @@ This is a simple todo app that allows users to create and manage tasks that need
 
 ## Installation
 
-__( Under construction )__ 
+Pull the repository and after that compile and run it.
 
 ## Contributing
 
