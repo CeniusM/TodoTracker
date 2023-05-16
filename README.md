@@ -23,7 +23,6 @@ This is a simple todo app that allows users to create and manage tasks that need
 ## Technologies Used
 
 - C#
-- [SDL-Sharp_64-bits](#sdl-sharp_64-bits)
 
 ## Installation
 
@@ -38,7 +37,4 @@ I will not accept any contributions since this is a project for my programing cl
 This project is licensed under the MIT license.
 
 ## Dependencies
-#### SDL-Sharp_64-bits
-- Author: GabrielFrigo
-- License: MIT license
-- Link to repo: https://github.com/GabrielFrigo4/SDL-Sharp
+If not on windows you will need to install .NET

@@ -4,26 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskTracker.TasksLoader;
+namespace TodoTracker.TodosLoader;
 
 /// <summary>
-/// Used to load and save tasks through
+/// Used to load and save Todos through
 /// </summary>
-internal class WebTasksLoadAndSaveHandle : ITasksLoadAndSaveHandle
+internal class WebTodosLoadAndSaveHandle : ITodosLoadAndSaveHandle
 {
     private string IP;
 
-    public WebTasksLoadAndSaveHandle(string IP)
+    public WebTodosLoadAndSaveHandle(string IP)
     {
         this.IP = IP;
     }
 
-    List<Task> ITasksLoadAndSaveHandle.LoadTasks()
+    List<Todo> ITodosLoadAndSaveHandle.LoadTodos()
     {
         throw new NotImplementedException();
     }
 
-    void ITasksLoadAndSaveHandle.SaveTasks(List<Task> tasks)
+    void ITodosLoadAndSaveHandle.SaveTodos(List<Todo> Todos)
     {
         throw new NotImplementedException();
     }
